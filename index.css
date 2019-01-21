@@ -1,0 +1,110 @@
+body {
+    margin: 0px;
+}
+.body-img {
+    width: 1280px;
+    height: 500px;
+}
+img {
+    background-size: cover;
+    object-fit: cover;
+}
+.img-container {
+    width: 350px;
+    height: 240px;
+    margin: 10px;
+    transition: 1s;
+    background-size: contain, cover;
+}
+.img-container:hover {
+    transform: scale(1.1);
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+p {
+    text-align: center;
+    display: inline-block;
+    margin: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+p::first-letter {
+    text-transform: capitalize;
+}
+.footer-a{
+    text-decoration: none;
+    display: inline;
+    margin: 30px;
+    color: rgb(78, 75, 75); 
+    font-size: 15px;
+}
+a:visited {
+    text-decoration: none;
+}
+.footer-a:hover {
+    text-decoration: none;
+}
+.footer-div{
+ display: flex; box-flex: wrap;
+    margin: 0px 60px; 
+    text-align: center;
+      
+}
+.footer-container-upper {
+    justify-content: space-around;
+    
+}
+.footer-container-middle {
+    justify-content: space-around;
+  
+}
+span {
+    font-size: 12px;
+}
+.footer-a1 {
+    text-decoration: none;
+    display: inline;
+    margin: 20px;
+    color: rgb(78, 75, 75); 
+    font-size: 12px;
+}
+.footer-a1:hover {
+    text-decoration: none;
+}
+.footer-container-bottom {
+float: left;
+padding: 0px 0px 10px 180px;
+background-color: aliceblue;
+width: 1280px;
+}
+footer {
+    background-color: mintcream;
+}
+.container-contact {
+    text-align: center;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: burlywood;
+    margin: 0px;
+    padding: 60px 20px;
+    background-color: linen;
+    display: block;
+}
+.contact {
+    margin: 10px;
+    border: rgb(185, 184, 184) 2px solid;
+    background-color: blanchedalmond;
+    transition: transform 1s;
+    width: 180px; height: 80px;
+    cursor: pointer;
+}
+.contact:hover {
+    transform: rotate(360deg);
+}
+h2 {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: burlywood;
+}
